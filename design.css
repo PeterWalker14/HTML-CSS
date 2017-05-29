@@ -1,0 +1,156 @@
+.font{
+  <!--font-weight:bold;-->
+}
+
+.container{
+  overflow:hidden;
+  width:100%;
+  <!--border:2px solid black;-->
+}
+.namesize{
+ margin:auto;
+ font-family:"Sylfaen",calibri;
+ font-size:10em;
+ text-align:center;
+}
+
+.imgsize{
+  float:left;
+  height:200px;
+}
+
+body{
+background-color:black;
+}
+
+header{
+    width:100%;
+    margin:;
+    padding:1em;
+    color: black;
+    background-color:#279fdb;
+    clear: left;
+    text-align:center;
+}
+.navbar{
+      float: right;
+      width:100%;
+      margin:auto;
+      padding:2px 0px 0px 0px;
+      color: black;
+      background-color:red;
+      font-family:"Sylfaen",calibri;
+      font-size:1em;
+      text-align:center;
+}
+
+.country a{
+      float:right;
+}
+
+.contentcontainer{
+     padding:60px ;
+     text-align:center;
+     font-size:2em;
+     font-family:"Sylfaen",calibri;
+     color:#279fdb;
+     
+}
+
+
+
+
+li{
+display:inline;
+}
+
+*{
+   margin:0px;
+   padding:0px;
+  <!--overflow:hidden;-->
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.topnav a {
+    float: left;
+    display: block;
+    color: #279fdb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family:"Sylfaen",calibri;
+}
+
+
+.topnav a:hover {
+    background-color: white;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 2px;
+}
+th{ 
+    color:#ed0b0b;
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+
+tr:child{
+    background-color: black;
+    font-size:3px;
+}
+
+.button {
+  border-radius: 0px;
+  background-color:#59ce1a;
+  border: none;
+  color: black;
+  text-align: center;
+  font-family:"Sylfaen",calibri;
+  font-size: 14px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  text-decoration:none
+}
+
+
+
+.footer{
+   <!-- margin-top: 112px;-->
+    width:100%;
+    padding:1em;
+    color: black;
+    background-color: #279fdb;
+    clear: left;
+    text-align:center;
+    font-family:"Sylfaen",calibri;
+    font-size:1em;
+    
+}
+footer.a{
+text-decoration:none;
+}
